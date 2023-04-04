@@ -20,6 +20,9 @@ const leapYears = function(year) {
     } else { //otherwise returns false
         return false;
     };
+
+    //or
+    //return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 };
 
 // Do not edit below this line
